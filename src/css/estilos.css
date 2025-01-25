@@ -1,0 +1,114 @@
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #0c0f15;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecario {
+    background: linear-gradient(90deg, #00aaff, #0044ff);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #ff0044;
+}
+
+.cabecario .titulo {
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.apresentacao-personagem {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    list-style: none;
+}
+
+.neon {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.neon h2 {
+    font-size: 3rem;
+    color: #00aaff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+.imagem-neon {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border: 4px solid #ff0044;
+    border-radius: 12px;
+}
+
+.resumo-neon {
+    font-size: 1.1rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-left: 5px solid #ff0044;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.introducao {
+    font-size: 1rem;
+    margin: 15px 0;
+}
+
+.link {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.habilidades {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 30px 0;
+    color: #ff0044;
+}
+
+.habilidade-1, .habilidade-2, .habilidade-3, .habilidade-4 {
+    margin: 20px 0;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+video, img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.habilidade-q, .habilidade-c, .habilidade-e, .habilidade-r {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #00aaff;
+    margin-bottom: 10px;
+}
+
+.q, .c, .e, .r {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ddd;
+}
+
